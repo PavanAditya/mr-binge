@@ -9,9 +9,9 @@
 
 ## Mr. Binge can be your best Binge Watch Buddy. Pick him up ASAP.
 
-`Track you curreny watchlist. Mr. Binge has tracking and analytics.`
-`Mark you new releases. Mr. Binge has Calendar.`
-`Ask him to remind about your shows. He's a good reminder 😉`
+* Track you curreny watchlist. Mr. Binge has tracking and analytics.
+* Mark you new releases. Mr. Binge has Calendar.
+* Ask him to remind about your shows. He's a good reminder 😉
 
 He's available on Google Play store. Get him soon. He's feeling alone. He needs you more that you need him 😟 [Adopt Mr. Binge](https://play.google.com/store/apps/details?id=com.msppeekaboo&hl=en_IN&gl=US)
 

@@ -34,7 +34,19 @@ export const SIZES = {
 
     // app dimensions
     width,
-    height
+    height,
+
+    // regular sizes
+    width_10: 10,
+    width_20: 20,
+    width_30: 30,
+    width_40: 40,
+    width_50: 50,
+    height_10: 10,
+    height_20: 20,
+    height_30: 30,
+    height_40: 40,
+    height_50: 50
 };
 export const FONTS = {
     largeTitle: { fontFamily: "Roboto-Black", fontSize: SIZES.largeTitle },
