@@ -36,7 +36,7 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -51,5 +51,82 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>BarlowSemiCondensed-Black.ttf</string>
+		<string>BarlowSemiCondensed-BlackItalic.ttf</string>
+		<string>BarlowSemiCondensed-Bold.ttf</string>
+		<string>BarlowSemiCondensed-BoldItalic.ttf</string>
+		<string>BarlowSemiCondensed-ExtraBold.ttf</string>
+		<string>BarlowSemiCondensed-ExtraBoldItalic.ttf</string>
+		<string>BarlowSemiCondensed-ExtraLight.ttf</string>
+		<string>BarlowSemiCondensed-ExtraLightItalic.ttf</string>
+		<string>BarlowSemiCondensed-Italic.ttf</string>
+		<string>BarlowSemiCondensed-Light.ttf</string>
+		<string>BarlowSemiCondensed-LightItalic.ttf</string>
+		<string>BarlowSemiCondensed-Medium.ttf</string>
+		<string>BarlowSemiCondensed-MediumItalic.ttf</string>
+		<string>BarlowSemiCondensed-Regular.ttf</string>
+		<string>BarlowSemiCondensed-SemiBold.ttf</string>
+		<string>BarlowSemiCondensed-SemiBoldItalic.ttf</string>
+		<string>BarlowSemiCondensed-Thin.ttf</string>
+		<string>BarlowSemiCondensed-ThinItalic.ttf</string>
+		<string>NanumGothic-Bold.ttf</string>
+		<string>NanumGothic-ExtraBold.ttf</string>
+		<string>NanumGothic-Regular.ttf</string>
+		<string>NunitoSans-Black.ttf</string>
+		<string>NunitoSans-BlackItalic.ttf</string>
+		<string>NunitoSans-Bold.ttf</string>
+		<string>NunitoSans-BoldItalic.ttf</string>
+		<string>NunitoSans-ExtraBold.ttf</string>
+		<string>NunitoSans-ExtraBoldItalic.ttf</string>
+		<string>NunitoSans-ExtraLight.ttf</string>
+		<string>NunitoSans-ExtraLightItalic.ttf</string>
+		<string>NunitoSans-Italic.ttf</string>
+		<string>NunitoSans-Light.ttf</string>
+		<string>NunitoSans-LightItalic.ttf</string>
+		<string>NunitoSans-Regular.ttf</string>
+		<string>NunitoSans-SemiBold.ttf</string>
+		<string>NunitoSans-SemiBoldItalic.ttf</string>
+		<string>Overpass-Black.ttf</string>
+		<string>Overpass-BlackItalic.ttf</string>
+		<string>Overpass-Bold.ttf</string>
+		<string>Overpass-BoldItalic.ttf</string>
+		<string>Overpass-ExtraBold.ttf</string>
+		<string>Overpass-ExtraBoldItalic.ttf</string>
+		<string>Overpass-ExtraLight.ttf</string>
+		<string>Overpass-ExtraLightItalic.ttf</string>
+		<string>Overpass-Italic.ttf</string>
+		<string>Overpass-Light.ttf</string>
+		<string>Overpass-LightItalic.ttf</string>
+		<string>Overpass-Regular.ttf</string>
+		<string>Overpass-SemiBold.ttf</string>
+		<string>Overpass-SemiBoldItalic.ttf</string>
+		<string>Overpass-Thin.ttf</string>
+		<string>Overpass-ThinItalic.ttf</string>
+		<string>Roboto-Black.ttf</string>
+		<string>Roboto-BlackItalic.ttf</string>
+		<string>Roboto-Bold.ttf</string>
+		<string>Roboto-BoldItalic.ttf</string>
+		<string>Roboto-Italic.ttf</string>
+		<string>Roboto-Light.ttf</string>
+		<string>Roboto-LightItalic.ttf</string>
+		<string>Roboto-Medium.ttf</string>
+		<string>Roboto-MediumItalic.ttf</string>
+		<string>Roboto-Regular.ttf</string>
+		<string>Roboto-Thin.ttf</string>
+		<string>Roboto-ThinItalic.ttf</string>
+		<string>RobotoCondensed-Bold.ttf</string>
+		<string>RobotoCondensed-BoldItalic.ttf</string>
+		<string>RobotoCondensed-Italic.ttf</string>
+		<string>RobotoCondensed-Light.ttf</string>
+		<string>RobotoCondensed-LightItalic.ttf</string>
+		<string>RobotoCondensed-Regular.ttf</string>
+		<string>ZenMaruGothic-Black.ttf</string>
+		<string>ZenMaruGothic-Bold.ttf</string>
+		<string>ZenMaruGothic-Light.ttf</string>
+		<string>ZenMaruGothic-Medium.ttf</string>
+		<string>ZenMaruGothic-Regular.ttf</string>
+	</array>
 </dict>
 </plist>
