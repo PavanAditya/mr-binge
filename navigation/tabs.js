@@ -1,7 +1,7 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
 
-import { Home, MovieDetail } from "../screens"
+import { Home } from "../screens"
 import { COLORS, icons } from "../constants"
 
 import { TabIcon } from "../components"
@@ -72,11 +72,6 @@ const Tabs = (props) => {
                         />
                     )
                 }}
-            />
-            <Tab.Screen
-                name="MovieDetail"
-                component={MovieDetail}
-                params={Tab}
             />
         </Tab.Navigator>
     )

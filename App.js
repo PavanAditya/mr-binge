@@ -23,7 +23,7 @@ const App = () => {
         />
 
         <Stack.Screen
-          name="MovieDetail"
+          name="MovieDetails"
           component={MovieDetail}
         />
       </Stack.Navigator>
