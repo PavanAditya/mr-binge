@@ -96,7 +96,60 @@ const MovieDetail = ({ navigation, route }) => {
                 <View style={{
                     flex: 1
                 }}>
+                    {/* Top Linear Gradient */}
+                    <LinearGradient
+                        start={{ x: 0, y: 1 }}
+                        end={{ x: 0, y: 0 }}
+                        colors={['transparent', COLORS.semiTransparentBlack]}
+                        style={{
+                            width: '100%',
+                            height: 150,
+                            alignItems: 'center',
+                            justifyContent: 'flex-end',
+                            position: 'absolute'
+                        }}
+                    >
+                    </LinearGradient>
                     {renderHeaderBar()}
+
+                    <View style={{
+                        flex: 1,
+                        justifyContent: 'flex-end',
+                    }}>
+                        {/* Bottom Linear Gradient */}
+                        <LinearGradient
+                            start={{ x: 0, y: 0 }}
+                            end={{ x: 0, y: 1 }}
+                            colors={['transparent', COLORS.black]}
+                            style={{
+                                width: '100%',
+                                height: 150,
+                                alignItems: 'center',
+                                justifyContent: 'flex-end'
+                            }}
+                        >
+                            {/* Season */}
+                            <Text
+                                style={{
+                                    color: COLORS.white,
+                                    ...FONTS.body4
+                                }}
+                            >
+                                {selectedMovie?.details?.season}
+                            </Text>
+
+                            {/* Title */}
+                            <Text
+                                style={{
+                                    marginTop: SIZES.base,
+                                    color: COLORS.white,
+                                    ...FONTS.h1
+                                }}
+                            >
+                                {selectedMovie?.name}
+                            </Text>
+                        </LinearGradient>
+                    </View>
                 </View>
             </ImageBackground>
         );
