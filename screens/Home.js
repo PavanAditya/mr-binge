@@ -12,7 +12,7 @@ import {
     ScrollView
 } from 'react-native';
 
-import { Profiles } from '../components';
+import { Profiles, ProgressBar } from '../components';
 
 import {
     dummyData,
@@ -232,6 +232,82 @@ const Home = ({ navigation }) => {
         );
     }
 
+    function renderContinueWatchingSection() {
+        return (
+            <View style={{
+                marginTop: SIZES.padding,
+            }}>
+                {/* Header */}
+                <View style={{
+                    flexDirection: 'row',
+                    paddingHorizontal: SIZES.padding,
+                    alignItems: 'center'
+                }}>
+                    <Text style={{
+                        flex: 1,
+                        color: COLORS.white,
+                        ...FONTS.h2,
+                    }}>Continue Watching</Text>
+                    <Image source={icons.right_arrow} style={{
+                        width: SIZES.width_20,
+                        height: SIZES.width_20,
+                        tintColor: COLORS.primary
+                    }} />
+                </View>
+
+                {/* List */}
+                <FlatList
+                    horizontal
+                    showsHorizontalScrollIndicator={false}
+                    contentContainerStyle={{
+                        marginTop: SIZES.padding
+                    }}
+                    data={dummyData.continueWatching}
+                    keyExtractor={item => `${item.id}`}
+                    renderItem={({ item, index }) => {
+                        return (
+                            <TouchableWithoutFeedback
+                                onPress={() => navigation.navigate('MovieDetails', { selectedMovie: item })}>
+                                <View style={{
+                                    marginLeft: index === 0 ? SIZES.padding : 20,
+                                    marginRight: index === dummyData.continueWatching.length - 1 ? SIZES.padding : 0,
+                                }}>
+                                    {/* Thumbnail */}
+                                    <Image
+                                        source={item.thumbnail}
+                                        resizeMode="cover"
+                                        style={{
+                                            width: SIZES.width / 3,
+                                            height: SIZES.width / 3 + 60,
+                                            borderRadius: SIZES.borderRadius / 2
+                                        }} />
+
+                                    {/* Title */}
+                                    <Text style={{
+                                        marginTop: SIZES.base,
+                                        color: COLORS.white,
+                                        ...FONTS.h4
+                                    }}>{item.name}</Text>
+
+                                    {/* Progress Bar */}
+                                    <ProgressBar
+                                    containerStyle={{
+                                        marginTop: SIZES.radius
+                                    }}
+                                    barStyle={{
+                                        height: 3
+                                    }}
+                                    barPercentage={item.overallProgress}
+                                    />
+                                </View>
+                            </TouchableWithoutFeedback>
+                        );
+                    }}
+                />
+            </View>
+        );
+    }
+
     return (
         <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.black }}>
             {renderHeader()}
@@ -242,6 +318,8 @@ const Home = ({ navigation }) => {
                 {renderNewSeasonSection()}
 
                 {renderDots()}
+
+                {renderContinueWatchingSection()}
             </ScrollView>
         </SafeAreaView>
     )

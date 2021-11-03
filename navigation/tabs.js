@@ -1,14 +1,14 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
 
-import { Home } from "../screens"
+import { Home, MovieDetail } from "../screens"
 import { COLORS, icons } from "../constants"
 
 import { TabIcon } from "../components"
 
 const Tab = createBottomTabNavigator()
 
-const Tabs = () => {
+const Tabs = (props) => {
     return (
         <Tab.Navigator
             tabBarOptions={{
@@ -72,6 +72,11 @@ const Tabs = () => {
                         />
                     )
                 }}
+            />
+            <Tab.Screen
+                name="MovieDetail"
+                component={MovieDetail}
+                params={Tab}
             />
         </Tab.Navigator>
     )
