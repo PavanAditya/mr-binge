@@ -155,6 +155,123 @@ const MovieDetail = ({ navigation, route }) => {
         );
     };
 
+    function renderCategoryAndRatings() {
+        return (
+            <View style={{
+                flexDirection: 'row',
+                marginTop: SIZES.base,
+                alignItems: 'center',
+                justifyContent: 'center'
+            }}>
+                {/* Age */}
+                <View style={[
+                    styles.categoryContainer,
+                    {
+                        marginLeft: 0
+                    }
+                ]}>
+                    <Text style={{
+                        color: COLORS.white,
+                        ...FONTS.h4
+                    }}>{selectedMovie?.details?.age}</Text>
+                </View>
+
+                {/* Genre */}
+                <View style={[
+                    styles.categoryContainer,
+                    {
+                        paddingHorizontal: SIZES.padding
+                    }
+                ]}>
+                    <Text style={{
+                        color: COLORS.white,
+                        ...FONTS.h4
+                    }}>{selectedMovie?.details?.genre}</Text>
+                </View>
+
+                {/* Rating */}
+                <View style={styles.categoryContainer}>
+                    <Image
+                        source={icons.star}
+                        resizeMode="contain"
+                        style={{
+                            width: 15,
+                            height: 15,
+                        }}
+                    />
+                    <Text style={{
+                        marginLeft: SIZES.base,
+                        color: COLORS.white,
+                        ...FONTS.h4
+                    }}>{selectedMovie?.details?.ratings}</Text>
+                </View>
+
+            </View>
+        );
+    }
+
+    function renderMovieDetails() {
+        return (
+            <View style={{
+                flex: 1,
+                paddingHorizontal: SIZES.padding,
+                marginTop: SIZES.padding,
+                justifyContent: 'space-around',
+            }}>
+                {/* Title, Running Time & Progress Bar */}
+                <View>
+                    <View style={{
+                        flexDirection: 'row'
+                    }}>
+                        {/* Title */}
+                        <Text style={{
+                            flex: 1,
+                            color: COLORS.white,
+                            ...FONTS.h4
+                        }}>{selectedMovie?.details?.currentEpisode}</Text>
+
+                        {/* Running Time */}
+                        <Text style={{
+                            color: COLORS.lightGray,
+                            ...FONTS.body4
+                        }}>{selectedMovie?.details?.runningTime}</Text>
+                    </View>
+
+                    {/* Progress Bar */}
+                    <ProgressBar
+                        containerStyle={{
+                            marginTop: SIZES.radius,
+                        }}
+                        barStyle={{
+                            height: 5,
+                            borderRadius: 3
+                        }}
+                        barPercentage={selectedMovie?.details?.progress !== undefined ? selectedMovie?.details?.progress : '0%'}
+                    />
+                </View>
+
+                {/* Watch */}
+                <TouchableOpacity
+                    style={{
+                        height: SIZES.height_60,
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        marginBottom: Platform.OS === 'ios' ? SIZES.padding * 2 : 0,
+                        borderRadius: 15,
+                        backgroundColor: COLORS.primary
+                    }}
+                >
+                    <Text style={{
+                        color: COLORS.white,
+                        ...FONTS.h2
+                    }}>
+                        {selectedMovie?.details?.progress !== undefined || selectedMovie?.details?.progress === '0%' ? 'Watch Now' : 'Continue Watching'}
+                    </Text>
+                </TouchableOpacity>
+            </View>
+        );
+    }
+
     return (
         <ScrollView
             contentContainerStyle={{
@@ -165,9 +282,29 @@ const MovieDetail = ({ navigation, route }) => {
                 backgroundColor: COLORS.black,
             }}
         >
+            {/* Header */}
             {renderHeader()}
+
+            {/* Category & Ratings */}
+            {renderCategoryAndRatings()}
+
+            {/* Movie Details */}
+            {renderMovieDetails()}
         </ScrollView>
     )
 }
+
+const styles = StyleSheet.create({
+    categoryContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginLeft: SIZES.base,
+        paddingHorizontal: SIZES.base,
+        paddingVertical: 3,
+        borderRadius: SIZES.base,
+        backgroundColor: COLORS.gray1
+    }
+});
 
 export default MovieDetail;

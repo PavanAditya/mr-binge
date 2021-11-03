@@ -133,6 +133,12 @@
 		<string>Cairo-Light.ttf</string>
 		<string>Cairo-Regular.ttf</string>
 		<string>Cairo-SemiBold.ttf</string>
+		<string>ElMessiri-Bold.ttf</string>
+		<string>ElMessiri-Medium.ttf</string>
+		<string>ElMessiri-Regular.ttf</string>
+		<string>ElMessiri-SemiBold.ttf</string>
+		<string>Merienda-Bold.ttf</string>
+		<string>Merienda-Regular.ttf</string>
 	</array>
 </dict>
 </plist>

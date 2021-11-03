@@ -54,29 +54,42 @@ export const SIZES = {
 };
 
 export const FONTS = {
-    largeTitle: { fontFamily: "Cairo-Black", fontSize: SIZES.largeTitle },
-    h1: { fontFamily: "Cairo-Black", fontSize: SIZES.h1, lineHeight: 36 },
-    h2: { fontFamily: "Cairo-Bold", fontSize: SIZES.h2, lineHeight: 30 },
-    h3: { fontFamily: "Cairo-Bold", fontSize: SIZES.h3, lineHeight: 22 },
-    h4: { fontFamily: "Cairo-Bold", fontSize: SIZES.h4, lineHeight: 22 },
-    body1: { fontFamily: "Cairo-Regular", fontSize: SIZES.body1, lineHeight: 36 },
-    body2: { fontFamily: "Cairo-Regular", fontSize: SIZES.body2, lineHeight: 30 },
-    body3: { fontFamily: "Cairo-Regular", fontSize: SIZES.body3, lineHeight: 22 },
-    body4: { fontFamily: "Cairo-Regular", fontSize: SIZES.body4, lineHeight: 22 },
-    body5: { fontFamily: "Cairo-Regular", fontSize: SIZES.body5, lineHeight: 22 },
+    largeTitle: { fontFamily: "Merienda-Bold", fontSize: SIZES.largeTitle },
+    h1: { fontFamily: "Merienda-Bold", fontSize: SIZES.h1, lineHeight: 36 },
+    h2: { fontFamily: "Merienda-Bold", fontSize: SIZES.h2, lineHeight: 30 },
+    h3: { fontFamily: "Merienda-Bold", fontSize: SIZES.h3, lineHeight: 22 },
+    h4: { fontFamily: "Merienda-Bold", fontSize: SIZES.h4, lineHeight: 22 },
+    body1: { fontFamily: "Merienda-Regular", fontSize: SIZES.body1, lineHeight: 36 },
+    body2: { fontFamily: "Merienda-Regular", fontSize: SIZES.body2, lineHeight: 30 },
+    body3: { fontFamily: "Merienda-Regular", fontSize: SIZES.body3, lineHeight: 22 },
+    body4: { fontFamily: "Merienda-Regular", fontSize: SIZES.body4, lineHeight: 22 },
+    body5: { fontFamily: "Merienda-Regular", fontSize: SIZES.body5, lineHeight: 22 },
 };
 
 // export const FONTS = {
-//     largeTitle: { fontFamily: "Roboto-Black", fontSize: SIZES.largeTitle },
-//     h1: { fontFamily: "Roboto-Black", fontSize: SIZES.h1, lineHeight: 36 },
-//     h2: { fontFamily: "Roboto-Bold", fontSize: SIZES.h2, lineHeight: 30 },
-//     h3: { fontFamily: "Roboto-Bold", fontSize: SIZES.h3, lineHeight: 22 },
-//     h4: { fontFamily: "Roboto-Bold", fontSize: SIZES.h4, lineHeight: 22 },
-//     body1: { fontFamily: "Roboto-Regular", fontSize: SIZES.body1, lineHeight: 36 },
-//     body2: { fontFamily: "Roboto-Regular", fontSize: SIZES.body2, lineHeight: 30 },
-//     body3: { fontFamily: "Roboto-Regular", fontSize: SIZES.body3, lineHeight: 22 },
-//     body4: { fontFamily: "Roboto-Regular", fontSize: SIZES.body4, lineHeight: 22 },
-//     body5: { fontFamily: "Roboto-Regular", fontSize: SIZES.body5, lineHeight: 22 },
+//     largeTitle: { fontFamily: "RobotoCondensed-BoldItalic", fontSize: SIZES.largeTitle },
+//     h1: { fontFamily: "RobotoCondensed-Bold", fontSize: SIZES.h1, lineHeight: 36 },
+//     h2: { fontFamily: "RobotoCondensed-Bold", fontSize: SIZES.h2, lineHeight: 30 },
+//     h3: { fontFamily: "RobotoCondensed-Bold", fontSize: SIZES.h3, lineHeight: 22 },
+//     h4: { fontFamily: "RobotoCondensed-Bold", fontSize: SIZES.h4, lineHeight: 22 },
+//     body1: { fontFamily: "RobotoCondensed-Regular", fontSize: SIZES.body1, lineHeight: 36 },
+//     body2: { fontFamily: "RobotoCondensed-Regular", fontSize: SIZES.body2, lineHeight: 30 },
+//     body3: { fontFamily: "RobotoCondensed-Regular", fontSize: SIZES.body3, lineHeight: 22 },
+//     body4: { fontFamily: "RobotoCondensed-Regular", fontSize: SIZES.body4, lineHeight: 22 },
+//     body5: { fontFamily: "RobotoCondensed-Regular", fontSize: SIZES.body5, lineHeight: 22 },
+// };
+
+// export const FONTS = {
+//     largeTitle: { fontFamily: "ElMessiri-Bold", fontSize: SIZES.largeTitle },
+//     h1: { fontFamily: "ElMessiri-Bold", fontSize: SIZES.h1, lineHeight: 36 },
+//     h2: { fontFamily: "ElMessiri-SemiBold", fontSize: SIZES.h2, lineHeight: 30 },
+//     h3: { fontFamily: "ElMessiri-SemiBold", fontSize: SIZES.h3, lineHeight: 22 },
+//     h4: { fontFamily: "ElMessiri-SemiBold", fontSize: SIZES.h4, lineHeight: 22 },
+//     body1: { fontFamily: "ElMessiri-Regular", fontSize: SIZES.body1, lineHeight: 36 },
+//     body2: { fontFamily: "ElMessiri-Regular", fontSize: SIZES.body2, lineHeight: 30 },
+//     body3: { fontFamily: "ElMessiri-Regular", fontSize: SIZES.body3, lineHeight: 22 },
+//     body4: { fontFamily: "ElMessiri-Regular", fontSize: SIZES.body4, lineHeight: 22 },
+//     body5: { fontFamily: "ElMessiri-Regular", fontSize: SIZES.body5, lineHeight: 22 },
 // };
 
 // export const FONTS = {

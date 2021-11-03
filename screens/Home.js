@@ -96,6 +96,7 @@ const Home = ({ navigation }) => {
                         }
                     }
                 ], { useNativeDriver: false })}
+                // ? Render Thumbnail Carousel Item
                 renderItem={({ item, index }) => {
                     return (
                         <TouchableWithoutFeedback
@@ -264,6 +265,7 @@ const Home = ({ navigation }) => {
                     }}
                     data={dummyData.continueWatching}
                     keyExtractor={item => `${item.id}`}
+                    // ? Render Watchlist Item
                     renderItem={({ item, index }) => {
                         return (
                             <TouchableWithoutFeedback
@@ -291,13 +293,13 @@ const Home = ({ navigation }) => {
 
                                     {/* Progress Bar */}
                                     <ProgressBar
-                                    containerStyle={{
-                                        marginTop: SIZES.radius
-                                    }}
-                                    barStyle={{
-                                        height: 3
-                                    }}
-                                    barPercentage={item.overallProgress}
+                                        containerStyle={{
+                                            marginTop: SIZES.radius
+                                        }}
+                                        barStyle={{
+                                            height: 3
+                                        }}
+                                        barPercentage={item.overallProgress}
                                     />
                                 </View>
                             </TouchableWithoutFeedback>

@@ -98,6 +98,14 @@
 		CD3FB48D867D47069E095685 /* Cairo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 162B82A017994495A0C47801 /* Cairo-Light.ttf */; };
 		15A56248EE12413398C5BB93 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DB3B5FE263E4C9ABFB37CD7 /* Cairo-Regular.ttf */; };
 		5C4DAFC268D04A8087BBE886 /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 067952B2771A46C69DC79E07 /* Cairo-SemiBold.ttf */; };
+		5C93FAC653E5405BACD79DAB /* El Messiri.png in Resources */ = {isa = PBXBuildFile; fileRef = C600DCB077F641FA8217BB23 /* El Messiri.png */; };
+		5FC7055432BE4D10A3ADB7C3 /* Merienda.png in Resources */ = {isa = PBXBuildFile; fileRef = CB0BC7A13604474F995E5DB7 /* Merienda.png */; };
+		9DE942EA3CB246598EC43D1C /* ElMessiri-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26276A469ECD4740BD39E946 /* ElMessiri-Bold.ttf */; };
+		80C98C4491AE4F0B8B9B21B9 /* ElMessiri-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67D2682628474D48BE5706FF /* ElMessiri-Medium.ttf */; };
+		A59F1B83753143BE9A3B5BBB /* ElMessiri-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A63B6D709B3C48CBA7EA9BA8 /* ElMessiri-Regular.ttf */; };
+		475B7FE21CC14A28882A08D6 /* ElMessiri-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8AD7249A759341E0A8C09FC3 /* ElMessiri-SemiBold.ttf */; };
+		358112035F6A413F99611DB4 /* Merienda-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6A5C44494BE4AD48B0B0CDC /* Merienda-Bold.ttf */; };
+		D7E093FFF4B04716947905FD /* Merienda-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F56A2880574A497B953AD07A /* Merienda-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -208,6 +216,14 @@
 		162B82A017994495A0C47801 /* Cairo-Light.ttf */ = {isa = PBXFileReference; name = "Cairo-Light.ttf"; path = "../assets/fonts/Cairo-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		1DB3B5FE263E4C9ABFB37CD7 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; name = "Cairo-Regular.ttf"; path = "../assets/fonts/Cairo-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		067952B2771A46C69DC79E07 /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; name = "Cairo-SemiBold.ttf"; path = "../assets/fonts/Cairo-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C600DCB077F641FA8217BB23 /* El Messiri.png */ = {isa = PBXFileReference; name = "El Messiri.png"; path = "../assets/fonts/El Messiri.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CB0BC7A13604474F995E5DB7 /* Merienda.png */ = {isa = PBXFileReference; name = "Merienda.png"; path = "../assets/fonts/Merienda.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		26276A469ECD4740BD39E946 /* ElMessiri-Bold.ttf */ = {isa = PBXFileReference; name = "ElMessiri-Bold.ttf"; path = "../assets/fonts/ElMessiri-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		67D2682628474D48BE5706FF /* ElMessiri-Medium.ttf */ = {isa = PBXFileReference; name = "ElMessiri-Medium.ttf"; path = "../assets/fonts/ElMessiri-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A63B6D709B3C48CBA7EA9BA8 /* ElMessiri-Regular.ttf */ = {isa = PBXFileReference; name = "ElMessiri-Regular.ttf"; path = "../assets/fonts/ElMessiri-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8AD7249A759341E0A8C09FC3 /* ElMessiri-SemiBold.ttf */ = {isa = PBXFileReference; name = "ElMessiri-SemiBold.ttf"; path = "../assets/fonts/ElMessiri-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D6A5C44494BE4AD48B0B0CDC /* Merienda-Bold.ttf */ = {isa = PBXFileReference; name = "Merienda-Bold.ttf"; path = "../assets/fonts/Merienda-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F56A2880574A497B953AD07A /* Merienda-Regular.ttf */ = {isa = PBXFileReference; name = "Merienda-Regular.ttf"; path = "../assets/fonts/Merienda-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -386,6 +402,14 @@
 				162B82A017994495A0C47801 /* Cairo-Light.ttf */,
 				1DB3B5FE263E4C9ABFB37CD7 /* Cairo-Regular.ttf */,
 				067952B2771A46C69DC79E07 /* Cairo-SemiBold.ttf */,
+				C600DCB077F641FA8217BB23 /* El Messiri.png */,
+				CB0BC7A13604474F995E5DB7 /* Merienda.png */,
+				26276A469ECD4740BD39E946 /* ElMessiri-Bold.ttf */,
+				67D2682628474D48BE5706FF /* ElMessiri-Medium.ttf */,
+				A63B6D709B3C48CBA7EA9BA8 /* ElMessiri-Regular.ttf */,
+				8AD7249A759341E0A8C09FC3 /* ElMessiri-SemiBold.ttf */,
+				D6A5C44494BE4AD48B0B0CDC /* Merienda-Bold.ttf */,
+				F56A2880574A497B953AD07A /* Merienda-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -567,6 +591,14 @@
 				CD3FB48D867D47069E095685 /* Cairo-Light.ttf in Resources */,
 				15A56248EE12413398C5BB93 /* Cairo-Regular.ttf in Resources */,
 				5C4DAFC268D04A8087BBE886 /* Cairo-SemiBold.ttf in Resources */,
+				5C93FAC653E5405BACD79DAB /* El Messiri.png in Resources */,
+				5FC7055432BE4D10A3ADB7C3 /* Merienda.png in Resources */,
+				9DE942EA3CB246598EC43D1C /* ElMessiri-Bold.ttf in Resources */,
+				80C98C4491AE4F0B8B9B21B9 /* ElMessiri-Medium.ttf in Resources */,
+				A59F1B83753143BE9A3B5BBB /* ElMessiri-Regular.ttf in Resources */,
+				475B7FE21CC14A28882A08D6 /* ElMessiri-SemiBold.ttf in Resources */,
+				358112035F6A413F99611DB4 /* Merienda-Bold.ttf in Resources */,
+				D7E093FFF4B04716947905FD /* Merienda-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
