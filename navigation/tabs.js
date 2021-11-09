@@ -1,7 +1,7 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
 
-import { Home } from "../screens"
+import { Home, Event } from "../screens"
 import { COLORS, icons } from "../constants"
 
 import { TabIcon } from "../components"
@@ -38,8 +38,8 @@ const Tabs = (props) => {
                 }}
             />
             <Tab.Screen
-                name="Play"
-                component={Home}
+                name="Event"
+                component={Event}
                 options={{
                     tabBarIcon: ({ focused }) => (
                         <TabIcon
